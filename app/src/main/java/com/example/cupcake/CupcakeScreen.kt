@@ -66,6 +66,7 @@ enum class CupcakeScreen(@StringRes val title: Int) {
 /**
  * Composable that displays the topBar and displays back button if back navigation is possible.
  */
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CupcakeAppBar(

@@ -70,15 +70,15 @@ fun CupcakeApp(
     navController: NavHostController = rememberNavController()
 ) {
 
-    Scaffold(
-        topBar = {
-            CupcakeAppBar(
-                canNavigateBack = false,
-                navigateUp = { /* TODO: implement back navigation */ }
-            )
-        }
-    ) { innerPadding ->
-        val uiState by viewModel.uiState.collectAsState()
-
-    }
+//    Scaffold(
+//        topBar = {
+//            CupcakeAppBar(
+//                canNavigateBack = false,
+//                navigateUp = { /* TODO: implement back navigation */ }
+//            )
+//        }
+//    ) { innerPadding ->
+//        val uiState by viewModel.uiState.collectAsState()
+//
+//    }
 }
